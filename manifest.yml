@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: devicesimulator0001
+  host: devicesimulator0001
+  disk_quota: 1024M
+  services:
+  - devicesimulator0001-cloudantNoSQLDB
